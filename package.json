@@ -1,0 +1,23 @@
+{
+  "name": "mra-encrypt",
+  "version": "1.0.0",
+  "description": "MRA Encryption/Decryption service for Zoho Books ↔ MRA e-invoicing",
+  "main": "api/generate-aes.js",
+  "scripts": {
+    "dev": "vercel dev",
+    "start": "node api/generate-aes.js"
+  },
+  "keywords": [
+    "zoho",
+    "mra",
+    "encryption",
+    "aes",
+    "rsa",
+    "einvoice"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.x"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "builds": [
+    { "src": "api/*.js", "use": "@vercel/node" }
+  ],
+  "routes": [
+    { "src": "/api/generate-aes", "dest": "/api/generate-aes.js" },
+    { "src": "/api/rsa-encrypt", "dest": "/api/rsa-encrypt.js" },
+    { "src": "/api/decrypt-aes", "dest": "/api/decrypt-aes.js" },
+    { "src": "/api/encrypt-invoice", "dest": "/api/encrypt-invoice.js" },
+      { "src": "/api/mra-process", "dest": "/api/mra-process.js" }
+  ]
+}
