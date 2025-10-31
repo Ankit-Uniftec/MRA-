@@ -1,6 +1,5 @@
 // api/mra-process-crn.js
-import dotenv from "dotenv";
-dotenv.config();
+
 
 import crypto from "crypto";
 // Note: do NOT import node-fetch — use global fetch in Node 18+ (Vercel runtime).
