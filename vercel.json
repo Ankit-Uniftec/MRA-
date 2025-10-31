@@ -11,7 +11,8 @@
       { "src": "/api/mra-process", "dest": "/api/mra-process.js" },
       { "src": "/api/generate", "dest": "/api/generate.js" },
       { "src": "/api/crn-process", "dest": "/api/crn-process.js" },
-      { "src": "/api/drn-process", "dest": "/api/drn-process.js" }
+      { "src": "/api/drn-process", "dest": "/api/drn-process.js" },
+      { "src": "/api/mra-bulk", "dest": "/api/mra-bulk.js" }
 
   ]
 }
