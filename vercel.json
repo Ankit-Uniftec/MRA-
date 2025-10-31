@@ -8,6 +8,9 @@
     { "src": "/api/rsa-encrypt", "dest": "/api/rsa-encrypt.js" },
     { "src": "/api/decrypt-aes", "dest": "/api/decrypt-aes.js" },
     { "src": "/api/encrypt-invoice", "dest": "/api/encrypt-invoice.js" },
-      { "src": "/api/mra-process", "dest": "/api/mra-process.js" }
+      { "src": "/api/mra-process", "dest": "/api/mra-process.js" },
+      { "src": "/api/generate", "dest": "/api/generate.js" },
+      { "src": "/api/crn-process", "dest": "/api/crn-process.js" }
+
   ]
 }
