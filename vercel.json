@@ -12,7 +12,8 @@
       { "src": "/api/generate", "dest": "/api/generate.js" },
       { "src": "/api/crn-process", "dest": "/api/crn-process.js" },
       { "src": "/api/drn-process", "dest": "/api/drn-process.js" },
-      { "src": "/api/mra-bulk", "dest": "/api/mra-bulk.js" }
+      { "src": "/api/mra-bulk", "dest": "/api/mra-bulk.js" },
+      { "src": "/api/proforma-process", "dest": "/api/proforma-process.js" }
 
   ]
 }
